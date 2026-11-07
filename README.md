@@ -23,7 +23,8 @@ a reszta drzewa spadnie razem z nim.
   z blokami brodawek lub świetlikiem grzybowym. Powalone drzewa nie mają liści, więc są pomijane.
   Dzięki temu nie ścinają się też budowle z pni postawionych przed instalacją paczki.
 - **Liście ściętego drzewa od razu opadają** (po ok. 1 s), z normalnymi dropami: sadzonkami, patykami i jabłkami.
-  Znikają tylko liście, które i tak by opadły. Liście sąsiednich drzew i postawione przez gracza zostają.
+  Znikają liście, które były bliżej ściętego drzewa niż jakiegokolwiek innego pnia, więc działa to też w gęstym lesie.
+  Liście sąsiednich drzew i postawione przez gracza zostają.
 - Działa tylko w trybie przetrwania i przygody, gdy trzymasz siekierę w głównej ręce.
 - **Shift (skradanie się)** = zwykłe kopanie jednego bloku (można to wyłączyć).
 
