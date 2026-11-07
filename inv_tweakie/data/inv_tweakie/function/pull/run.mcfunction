@@ -1,5 +1,5 @@
-# Szybkie odkładanie: przenieś z głównego ekwipunku (sloty 9–35) przedmioty, które już są w skrzyni,
-# o ile się mieszczą. Zmiany w ekwipunku są stosowane dopiero po udanym zapisie skrzyni (pull/apply).
+# Szybkie odkładanie: przenieś z głównego ekwipunku (sloty 9–35) całe stosy przedmiotów, które już są
+# w skrzyni, o ile się w całości mieszczą. Zmiany w ekwipunku są stosowane dopiero po udanym zapisie skrzyni (pull/apply).
 data modify storage it:sort pulls set value []
 scoreboard players set #moved it.var 0
 scoreboard players set #used it.var 0

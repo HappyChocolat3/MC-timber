@@ -20,6 +20,8 @@ scoreboard players operation #room it.var += #fm it.var
 scoreboard players operation #mv it.var = #c it.var
 execute if score #mv it.var > #room it.var run scoreboard players operation #mv it.var = #room it.var
 execute if score #mv it.var matches ..0 run return 0
+# Przenosimy tylko całe stosy (bez dzielenia), żeby nie zmieniać liczby sztuk w ekwipunku
+execute if score #mv it.var < #c it.var run return 0
 scoreboard players operation #t it.var += #mv it.var
 execute store result storage it:sort g.total int 1 run scoreboard players get #t it.var
 # a = ceil(t/m) po dodaniu; free -= a - b
