@@ -1,2 +1,2 @@
-execute if items entity @e[type=item_display,tag=it.tmp,limit=1] contents minecraft:bone run return 1
+execute in minecraft:overworld if items block 1 -64 0 container.0 minecraft:bone run return 1
 return 0

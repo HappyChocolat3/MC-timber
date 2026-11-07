@@ -11,10 +11,9 @@ execute as @e[type=marker,tag=it.c2,limit=1] at @s run data modify storage it:so
 scoreboard players set #cap it.var 27
 execute if entity @e[type=marker,tag=it.c2] run scoreboard players set #cap it.var 54
 
-summon minecraft:item_display ~ ~ ~ {Tags:["it.tmp"],view_range:0f}
 function inv_tweakie:sort/run
+function inv_tweakie:sort/debug
 execute if score #ok it.var matches 1 run function inv_tweakie:chest/write
 execute if score #ok it.var matches 1 run title @s actionbar {"text":"Posortowano","color":"green"}
 execute unless score #ok it.var matches 1 run title @s actionbar {"text":"Nie udało się posortować – nic nie zmieniono","color":"red"}
-kill @e[type=item_display,tag=it.tmp]
 kill @e[type=marker,tag=it.c]

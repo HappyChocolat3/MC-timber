@@ -1,3 +1,4 @@
-data modify entity @e[type=item_display,tag=it.tmp,limit=1] item set from storage it:sort out[0]
+data modify storage it:sort ti set from storage it:sort out[0]
 data remove storage it:sort out[0]
-$item replace entity @s inventory.$(k) from entity @e[type=item_display,tag=it.tmp,limit=1] contents
+function inv_tweakie:sort/set_tmp
+$execute in minecraft:overworld run item replace entity @s inventory.$(k) from block 1 -64 0 container.0

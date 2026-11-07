@@ -57,11 +57,18 @@ Jeśli coś się nie zgadza, nic nie zmienia i pokazuje komunikat „Nie udało 
 Wartość `1` z powrotem włącza daną funkcję.
 
 ## Jak to działa i ograniczenia
-- Paczka zapamiętuje, co każdy gracz trzyma w ręce, w niewidocznych encjach `item_display`.
-  Te encje stoją w chunku 0,0 w Overworldzie, który paczka trzyma stale załadowany (`forceload`).
+- Paczka zapamiętuje, co każdy gracz trzyma w ręce, w ukrytych beczkach w warstwie bedrocka
+  (y = -64, x = 0–1, z = 0–…) w chunku 0,0 w Overworldzie. Ten chunk jest stale załadowany (`forceload`).
+  Polecenie odinstalowania przywraca w tym miejscu bedrock.
 - Nie ma przycisku „Sortuj” w oknie ani skrótu klawiszowego, bo paczka danych nie może zmieniać interfejsu.
 - Sortowanie skrzynek ender nie jest obsługiwane.
 - Uzupełnianie bierze pierwszy pasujący stos z głównego ekwipunku, nie z paska.
+
+## Diagnostyka
+```
+/function inv_tweakie:debug
+```
+Włącza i wyłącza komunikaty na czacie, które pokazują, co paczka wykrywa i na którym etapie się zatrzymuje.
 
 ## Odinstalowanie
 ```
