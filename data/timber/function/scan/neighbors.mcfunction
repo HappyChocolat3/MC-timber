@@ -1,0 +1,27 @@
+# 26 sąsiadów (także po skosie – gałęzie akacji itp.)
+execute positioned ~1 ~ ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~ ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~ ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~ ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~ ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~ ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~1 ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~1 ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~1 ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~1 ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~1 ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~1 ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~1 ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~1 ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~-1 ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~-1 ~ if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~-1 ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~ ~-1 ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~-1 ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~1 ~-1 ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit
+execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ #minecraft:logs run function timber:scan/visit

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {"condition": "minecraft:location_check", "predicate": {"block": {"blocks": "#minecraft:logs"}}}
+        ]
+      }
+    }
+  },
+  "rewards": {"function": "timber:place/on_place"}
+}

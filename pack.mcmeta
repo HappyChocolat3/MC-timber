@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "§6MC-Timber§r – ścinanie całego drzewa siekierą",
+    "pack_format": 71,
+    "supported_formats": [71, 1000],
+    "min_format": 71,
+    "max_format": 1000
+  }
+}
