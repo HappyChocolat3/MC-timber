@@ -1,0 +1,27 @@
+# 26 sąsiadów (złoża bywają połączone po skosie) – grupa debris
+execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~-1 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~0 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~0 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~0 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~1 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~-1 ~1 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~-1 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~-1 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~-1 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~0 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~0 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~1 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~1 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~0 ~1 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~-1 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~-1 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~-1 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~0 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~0 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~0 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~1 ~-1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~1 ~0 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit
+execute positioned ~1 ~1 ~1 if block ~ ~ ~ minecraft:ancient_debris run function veinminer:scan/debris/visit

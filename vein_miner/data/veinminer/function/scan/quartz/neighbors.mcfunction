@@ -1,0 +1,27 @@
+# 26 sąsiadów (złoża bywają połączone po skosie) – grupa quartz
+execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~-1 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~0 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~0 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~0 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~1 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~-1 ~1 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~-1 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~-1 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~-1 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~0 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~0 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~1 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~1 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~0 ~1 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~-1 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~-1 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~-1 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~0 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~0 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~0 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~1 ~-1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~1 ~0 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit
+execute positioned ~1 ~1 ~1 if block ~ ~ ~ minecraft:nether_quartz_ore run function veinminer:scan/quartz/visit

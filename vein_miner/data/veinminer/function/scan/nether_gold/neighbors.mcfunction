@@ -1,0 +1,27 @@
+# 26 sąsiadów (złoża bywają połączone po skosie) – grupa nether_gold
+execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~-1 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~0 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~0 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~0 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~1 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~-1 ~1 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~-1 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~-1 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~-1 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~0 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~0 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~1 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~1 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~0 ~1 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~-1 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~-1 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~-1 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~0 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~0 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~0 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~1 ~-1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~1 ~0 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit
+execute positioned ~1 ~1 ~1 if block ~ ~ ~ minecraft:nether_gold_ore run function veinminer:scan/nether_gold/visit

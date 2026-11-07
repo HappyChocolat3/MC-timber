@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "§avein_miner§r – wykopywanie całego złoża naraz",
+    "pack_format": 71,
+    "supported_formats": [
+      71,
+      1000
+    ],
+    "min_format": 71,
+    "max_format": 1000
+  }
+}

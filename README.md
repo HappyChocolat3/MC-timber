@@ -1,5 +1,6 @@
-> W tym repozytorium jest też druga paczka: **[inv_tweakie](inv_tweakie/README.md)**
-> (sortowanie skrzyń i ekwipunku oraz automatyczne uzupełnianie paska), plik `inv_tweakie.zip`.
+> W tym repozytorium są też inne paczki:
+> - **[inv_tweakie](inv_tweakie/README.md)**: sortowanie skrzyń i ekwipunku oraz automatyczne uzupełnianie paska (`inv_tweakie.zip`)
+> - **[vein_miner](vein_miner/README.md)**: wykopywanie całego złoża rudy naraz (`vein_miner.zip`)
 
 # MC-Timber 🪓
 
