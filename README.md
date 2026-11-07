@@ -22,6 +22,8 @@ a reszta drzewa spadnie razem z nim.
   z **naturalnymi liśćmi** (`persistent=false`, czyli nie postawionymi przez gracza) albo, w Netherze,
   z blokami brodawek lub świetlikiem grzybowym. Powalone drzewa nie mają liści, więc są pomijane.
   Dzięki temu nie ścinają się też budowle z pni postawionych przed instalacją paczki.
+- **Liście ściętego drzewa od razu opadają** (po ok. 1 s), z normalnymi dropami: sadzonkami, patykami i jabłkami.
+  Znikają tylko liście, które i tak by opadły. Liście sąsiednich drzew i postawione przez gracza zostają.
 - Działa tylko w trybie przetrwania i przygody, gdy trzymasz siekierę w głównej ręce.
 - **Shift (skradanie się)** = zwykłe kopanie jednego bloku (można to wyłączyć).
 
@@ -36,6 +38,7 @@ a reszta drzewa spadnie razem z nim.
 ```
 /scoreboard players set #max_logs timber.config 256      # maks. liczba pni naraz (domyślnie 256)
 /scoreboard players set #sneak_disables timber.config 0  # 0 = Shift nie wyłącza ścinania
+/scoreboard players set #leaf_decay timber.config 0      # 0 = liście opadają normalnie, powoli
 ```
 
 ## Diagnostyka

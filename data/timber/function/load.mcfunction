@@ -18,8 +18,10 @@ scoreboard objectives add timber.m.warped minecraft.mined:minecraft.warped_stem
 # Konfiguracja (ustawiana tylko jeśli jeszcze nie istnieje)
 #  max_logs        – maks. liczba pni ścinanych naraz
 #  sneak_disables  – 1 = skradanie się (Shift) wyłącza ścinanie całego drzewa
+#  leaf_decay      – 1 = liście ściętego drzewa od razu opadają
 execute unless score #max_logs timber.config matches 1.. run scoreboard players set #max_logs timber.config 256
 execute unless score #debug timber.config matches 0..1 run scoreboard players set #debug timber.config 0
+execute unless score #leaf_decay timber.config matches 0..1 run scoreboard players set #leaf_decay timber.config 1
 execute unless score #sneak_disables timber.config matches 0..1 run scoreboard players set #sneak_disables timber.config 1
 
 # Liczniki postawionych pni (statystyka minecraft.used)

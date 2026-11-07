@@ -2,6 +2,8 @@
 schedule clear timber:cleanup
 kill @e[type=marker,tag=timber.placed]
 kill @e[type=marker,tag=timber.scan]
+kill @e[type=marker,tag=timber.leafseed]
+schedule clear timber:leaves/run
 scoreboard objectives remove timber.var
 scoreboard objectives remove timber.config
 scoreboard objectives remove timber.m.oak

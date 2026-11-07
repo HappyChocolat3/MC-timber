@@ -21,6 +21,9 @@ execute store result storage timber:tmp ub.lvl int 1 run scoreboard players get 
 
 scoreboard players set #broken timber.var 0
 function timber:fell_loop
+# Liście: po chwili (gdy gra przeliczy odległości od pni) usuń te, które i tak by opadły
+execute if score #leaf_decay timber.config matches 1 run schedule function timber:leaves/run 20t replace
+execute unless score #leaf_decay timber.config matches 1 run kill @e[type=marker,tag=timber.leafseed]
 execute if score #debug timber.config matches 1 run tellraw @a [{"text":"[Timber] ","color":"gold"},{"text":"5/5 ścięto, zużycie teraz: ","color":"gray"},{"score":{"name":"#dmg","objective":"timber.var"},"color":"white"}]
 
 execute if score #broken timber.var matches 0 if score #unbreakable timber.var matches 0 run function timber:tool/write
