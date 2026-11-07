@@ -56,3 +56,6 @@ scoreboard players reset @a timber.u.warped_stem
 scoreboard players reset @a timber.u.warped_hyphae
 scoreboard players reset @a timber.u.stripped_warped_stem
 scoreboard players reset @a timber.u.stripped_warped_hyphae
+
+# Wszystkie istniejące przedmioty oznacz jako „stare” – nowe (bez tagu) to świeże dropy
+tag @e[type=item,tag=!timber.old] add timber.old

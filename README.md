@@ -1,6 +1,6 @@
 # MC-Timber 🪓
 
-Paczka danych (data pack) do **Minecraft Java Edition 1.21.5+**: zetnij jeden pień siekierą,
+Paczka danych (data pack) do **Minecraft Java Edition 1.21.5+ (w tym 26.x)**: zetnij jeden pień siekierą,
 a reszta drzewa spadnie razem z nim.
 
 > To jest **paczka danych**, nie paczka zasobów. Paczki zasobów (resource pack) zmieniają
@@ -34,6 +34,13 @@ a reszta drzewa spadnie razem z nim.
 /scoreboard players set #max_logs timber.config 256      # maks. liczba pni naraz (domyślnie 256)
 /scoreboard players set #sneak_disables timber.config 0  # 0 = Shift nie wyłącza ścinania
 ```
+
+## Diagnostyka
+
+```
+/function timber:debug
+```
+Włącza i wyłącza komunikaty na czacie (etapy 1/5–5/5), które pokazują, na którym kroku ścinanie się zatrzymuje.
 
 ## Odinstalowanie
 
