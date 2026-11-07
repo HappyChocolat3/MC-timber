@@ -1,5 +1,5 @@
 execute as @a at @s run function timber:place/check
-execute as @a[gamemode=!creative,gamemode=!spectator] at @s run function timber:player_tick
+execute as @a at @s run function timber:player_tick
 
 scoreboard players reset @a timber.m.oak
 scoreboard players reset @a timber.m.spruce
