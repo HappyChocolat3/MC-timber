@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "§binv_tweakie§r – sortowanie i uzupełnianie ekwipunku",
+    "pack_format": 71,
+    "supported_formats": [
+      71,
+      1000
+    ],
+    "min_format": 71,
+    "max_format": 1000
+  }
+}

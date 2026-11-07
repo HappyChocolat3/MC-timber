@@ -1,3 +1,6 @@
+> W tym repozytorium jest też druga paczka: **[inv_tweakie](inv_tweakie/README.md)**
+> (sortowanie skrzyń i ekwipunku oraz automatyczne uzupełnianie paska), plik `inv_tweakie.zip`.
+
 # MC-Timber 🪓
 
 Paczka danych (data pack) do **Minecraft Java Edition 1.21.5+ (w tym 26.x)**: zetnij jeden pień siekierą,
