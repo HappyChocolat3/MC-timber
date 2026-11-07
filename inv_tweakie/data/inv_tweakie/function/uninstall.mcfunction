@@ -7,6 +7,7 @@ scoreboard objectives remove it.config
 scoreboard objectives remove it.id
 scoreboard objectives remove it.ms
 scoreboard objectives remove it.mz
+scoreboard objectives remove it.look
 scoreboard objectives remove it.drop
 scoreboard objectives remove it.sneak
 scoreboard objectives remove it.oc

@@ -17,7 +17,8 @@ narzędzie, w to samo miejsce na pasku trafi następny taki sam przedmiot z ekwi
 Zawartość zostanie połączona w pełne stosy i posortowana według grup. Działa też na podwójnych skrzyniach.
 
 ### 3. Sortowanie ekwipunku
-Wpisz na czacie:
+**Przytrzymaj Shift i patrz prosto w górę przez około sekundę.** Możesz też wpisać na czacie
+(przy zamkniętym ekwipunku):
 ```
 /trigger sortuj
 ```
@@ -52,7 +53,7 @@ Jeśli coś się nie zgadza, nic nie zmienia i pokazuje komunikat „Nie udało 
 ```
 /scoreboard players set #refill it.config 0      # wyłącz uzupełnianie paska
 /scoreboard players set #chest_sort it.config 0  # wyłącz sortowanie skrzyń
-/scoreboard players set #inv_sort it.config 0    # wyłącz /trigger sortuj
+/scoreboard players set #inv_sort it.config 0    # wyłącz sortowanie ekwipunku (gest i /trigger)
 ```
 Wartość `1` z powrotem włącza daną funkcję.
 

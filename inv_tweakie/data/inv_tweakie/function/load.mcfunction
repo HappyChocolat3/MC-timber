@@ -4,6 +4,7 @@ scoreboard objectives add it.config dummy
 scoreboard objectives add it.id dummy
 scoreboard objectives add it.ms dummy
 scoreboard objectives add it.mz dummy
+scoreboard objectives add it.look dummy
 scoreboard objectives add it.drop minecraft.custom:minecraft.drop
 scoreboard objectives add it.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add it.oc minecraft.custom:minecraft.open_chest
