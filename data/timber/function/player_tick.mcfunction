@@ -16,9 +16,9 @@ execute if score #mined timber.var matches 0 run return 0
 # Musi trzymać siekierę
 execute unless items entity @s weapon.mainhand #minecraft:axes run return 0
 # Opcjonalnie: Shift = zwykłe kopanie
-execute if score #sneak_disables timber.config matches 1 if predicate timber:sneaking run return 0
+execute if score #sneak_disables timber.config matches 1 if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{flags:{is_sneaking:true}}} run return 0
 
 # Znajdź świeżo wypadnięty przedmiot-pień (Age 0) – jego pozycja wskazuje wykopany blok
 tag @s add timber.cutter
-execute as @e[type=item,distance=..8,nbt={Age:0s},predicate=timber:is_log_item,sort=nearest,limit=1] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #minecraft:air run function timber:start
+execute as @e[type=item,distance=..8,nbt={Age:0s}] if items entity @s contents #minecraft:logs at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #minecraft:air run function timber:start
 tag @s remove timber.cutter

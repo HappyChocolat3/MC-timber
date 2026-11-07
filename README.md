@@ -13,7 +13,7 @@ a reszta drzewa spadnie razem z nim.
 - **Zużycie siekiery** jest takie, jakby każdy pień był wykopany osobno: +1 punkt zużycia za każdy pień,
   z uwzględnieniem **Niezniszczalności (Unbreaking)**, czyli szansy 1/(poziom+1). Jeśli siekiera się zniszczy,
   ścinanie się zatrzymuje, a reszta drzewa zostaje.
-- **Pnie postawione przez gracza nie są ścinane.** Każdy postawiony pień dostaje niewidzialny znacznik
+- **Pnie postawione przez gracza nie są ścinane.** Każdy postawiony pień (wykrywany statystyką „użyto”) dostaje niewidzialny znacznik
   (encję `marker`). Takie pnie są pomijane, a wykopanie ich działa normalnie.
 - **Powalone drzewa i budowle nie są ścinane.** Ścinanie działa tylko wtedy, gdy pnie stykają się
   z **naturalnymi liśćmi** (`persistent=false`, czyli nie postawionymi przez gracza) albo, w Netherze,

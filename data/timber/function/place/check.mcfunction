@@ -1,0 +1,47 @@
+# Czy gracz w poprzednim ticku postawił pień?
+scoreboard players set #placed timber.var 0
+execute if score @s timber.u.oak_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.oak_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_oak_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_oak_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.spruce_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.spruce_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_spruce_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_spruce_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.birch_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.birch_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_birch_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_birch_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.jungle_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.jungle_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_jungle_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_jungle_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.acacia_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.acacia_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_acacia_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_acacia_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.dark_oak_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.dark_oak_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_dark_oak_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_dark_oak_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.mangrove_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.mangrove_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_mangrove_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_mangrove_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.cherry_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.cherry_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_cherry_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_cherry_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.pale_oak_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.pale_oak_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_pale_oak_log matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_pale_oak_wood matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.crimson_stem matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.crimson_hyphae matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_crimson_stem matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_crimson_hyphae matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.warped_stem matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.warped_hyphae matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_warped_stem matches 1.. run scoreboard players set #placed timber.var 1
+execute if score @s timber.u.stripped_warped_hyphae matches 1.. run scoreboard players set #placed timber.var 1
+execute if score #placed timber.var matches 1 run function timber:place/on_place

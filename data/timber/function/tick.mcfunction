@@ -1,3 +1,4 @@
+execute as @a at @s run function timber:place/check
 execute as @a[gamemode=!creative,gamemode=!spectator] at @s run function timber:player_tick
 
 scoreboard players reset @a timber.m.oak
@@ -11,3 +12,47 @@ scoreboard players reset @a timber.m.cherry
 scoreboard players reset @a timber.m.paleoak
 scoreboard players reset @a timber.m.crimson
 scoreboard players reset @a timber.m.warped
+scoreboard players reset @a timber.u.oak_log
+scoreboard players reset @a timber.u.oak_wood
+scoreboard players reset @a timber.u.stripped_oak_log
+scoreboard players reset @a timber.u.stripped_oak_wood
+scoreboard players reset @a timber.u.spruce_log
+scoreboard players reset @a timber.u.spruce_wood
+scoreboard players reset @a timber.u.stripped_spruce_log
+scoreboard players reset @a timber.u.stripped_spruce_wood
+scoreboard players reset @a timber.u.birch_log
+scoreboard players reset @a timber.u.birch_wood
+scoreboard players reset @a timber.u.stripped_birch_log
+scoreboard players reset @a timber.u.stripped_birch_wood
+scoreboard players reset @a timber.u.jungle_log
+scoreboard players reset @a timber.u.jungle_wood
+scoreboard players reset @a timber.u.stripped_jungle_log
+scoreboard players reset @a timber.u.stripped_jungle_wood
+scoreboard players reset @a timber.u.acacia_log
+scoreboard players reset @a timber.u.acacia_wood
+scoreboard players reset @a timber.u.stripped_acacia_log
+scoreboard players reset @a timber.u.stripped_acacia_wood
+scoreboard players reset @a timber.u.dark_oak_log
+scoreboard players reset @a timber.u.dark_oak_wood
+scoreboard players reset @a timber.u.stripped_dark_oak_log
+scoreboard players reset @a timber.u.stripped_dark_oak_wood
+scoreboard players reset @a timber.u.mangrove_log
+scoreboard players reset @a timber.u.mangrove_wood
+scoreboard players reset @a timber.u.stripped_mangrove_log
+scoreboard players reset @a timber.u.stripped_mangrove_wood
+scoreboard players reset @a timber.u.cherry_log
+scoreboard players reset @a timber.u.cherry_wood
+scoreboard players reset @a timber.u.stripped_cherry_log
+scoreboard players reset @a timber.u.stripped_cherry_wood
+scoreboard players reset @a timber.u.pale_oak_log
+scoreboard players reset @a timber.u.pale_oak_wood
+scoreboard players reset @a timber.u.stripped_pale_oak_log
+scoreboard players reset @a timber.u.stripped_pale_oak_wood
+scoreboard players reset @a timber.u.crimson_stem
+scoreboard players reset @a timber.u.crimson_hyphae
+scoreboard players reset @a timber.u.stripped_crimson_stem
+scoreboard players reset @a timber.u.stripped_crimson_hyphae
+scoreboard players reset @a timber.u.warped_stem
+scoreboard players reset @a timber.u.warped_hyphae
+scoreboard players reset @a timber.u.stripped_warped_stem
+scoreboard players reset @a timber.u.stripped_warped_hyphae
