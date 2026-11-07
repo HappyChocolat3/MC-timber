@@ -17,6 +17,7 @@ scoreboard objectives add sortuj trigger
 execute unless score #refill it.config matches 0..1 run scoreboard players set #refill it.config 1
 execute unless score #chest_sort it.config matches 0..1 run scoreboard players set #chest_sort it.config 1
 execute unless score #debug it.config matches 0..1 run scoreboard players set #debug it.config 0
+execute unless score #quick_stack it.config matches 0..1 run scoreboard players set #quick_stack it.config 1
 execute unless score #inv_sort it.config matches 0..1 run scoreboard players set #inv_sort it.config 1
 
 # Pamięć „co gracz trzymał w ręce” – ukryte beczki w warstwie bedrocka (y=-64) w stale załadowanym chunku 0 0

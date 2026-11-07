@@ -4,6 +4,7 @@ data modify storage it:sort all set from entity @s Inventory
 data modify storage it:sort in set value []
 function inv_tweakie:inv/filter_loop
 scoreboard players set #cap it.var 27
+scoreboard players set #pull it.var 0
 function inv_tweakie:sort/run
 function inv_tweakie:sort/debug
 execute if score #ok it.var matches 1 run function inv_tweakie:inv/write

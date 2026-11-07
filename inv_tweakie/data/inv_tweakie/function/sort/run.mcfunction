@@ -1,5 +1,6 @@
 # Wejście: storage it:sort in (lista przedmiotów), #cap = liczba slotów. Wyjście: storage it:sort out, #ok = 1 gdy bezpiecznie.
 scoreboard players set #ok it.var 0
+scoreboard players set #moved it.var 0
 function inv_tweakie:sort/selftest
 execute unless score #self it.var matches 1 run return 0
 
@@ -9,6 +10,7 @@ function inv_tweakie:sort/group_loop
 
 data modify storage it:sort groups2 set value []
 function inv_tweakie:sort/classify_loop
+execute if score #pull it.var matches 1 run function inv_tweakie:pull/run
 
 data modify storage it:sort sorted set value []
 data modify storage it:sort sorted append from storage it:sort groups2[{cat:1}]

@@ -16,6 +16,9 @@ narzędzie, w to samo miejsce na pasku trafi następny taki sam przedmiot z ekwi
 **Otwórz skrzynię, beczkę lub shulker box, skradając się (Shift), z pustymi obiema rękami.**
 Zawartość zostanie połączona w pełne stosy i posortowana według grup. Działa też na podwójnych skrzyniach.
 
+Przy okazji działa **szybkie odkładanie**: z głównego ekwipunku (bez paska) do skrzyni trafią przedmioty
+takiego samego rodzaju jak te, które już w niej leżą, o ile się zmieszczą. Reszta zostaje u ciebie.
+
 ### 3. Sortowanie ekwipunku
 **Przytrzymaj Shift i patrz prosto w górę przez około sekundę.** Możesz też wpisać na czacie
 (przy zamkniętym ekwipunku):
@@ -53,6 +56,7 @@ Jeśli coś się nie zgadza, nic nie zmienia i pokazuje komunikat „Nie udało 
 ```
 /scoreboard players set #refill it.config 0      # wyłącz uzupełnianie paska
 /scoreboard players set #chest_sort it.config 0  # wyłącz sortowanie skrzyń
+/scoreboard players set #quick_stack it.config 0 # wyłącz szybkie odkładanie do skrzyni
 /scoreboard players set #inv_sort it.config 0    # wyłącz sortowanie ekwipunku (gest i /trigger)
 ```
 Wartość `1` z powrotem włącza daną funkcję.
